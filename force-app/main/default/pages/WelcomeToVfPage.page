@@ -1,0 +1,8 @@
+<apex:page sidebar="false" showHeader="false">
+  <apex:form >
+    <apex:pageBlock title="Account Info">
+        
+    </apex:pageBlock>
+  </apex:form>
+  
+</apex:page>

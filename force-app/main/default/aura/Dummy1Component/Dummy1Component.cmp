@@ -1,0 +1,7 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes" access="global" >
+    <aura:attribute type="String" name="firstName"/>
+    <aura:attribute type="String" name="lastName"/>
+    <lightning:input label="Enter First Name" value="{!v.firstName}"/>
+    <lightning:input label="Enter Last Name" value="{!v.lastName}"/>
+    <lightning:button label="Add Contact" onclick="{!c.addContact}"/>
+</aura:component>
